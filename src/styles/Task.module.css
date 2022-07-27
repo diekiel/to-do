@@ -37,10 +37,11 @@
 
 .taskContent p.unchecked, .taskContent p.checked {
     font-size: 0.875rem;
-
-    max-width: 39.5rem;
-
     line-height: 140%;
+    overflow-wrap: break-word;
+
+    max-width: 35rem;
+
 }
 
 .taskContent p.checked {
@@ -67,5 +68,4 @@
 
 .unchecked {
     color: var(--blue);
-
 }
