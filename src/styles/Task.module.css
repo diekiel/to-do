@@ -1,0 +1,71 @@
+.taskWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--gray-5);
+    
+    border: 1px solid var(--gray-4);
+    border-radius: 8px;
+
+    margin-bottom: 0.75rem;
+
+    padding: 1rem;
+    
+}
+
+.taskWrapper button.trash {
+    color: var(--gray-3);
+    border-radius: 4px;
+
+    padding: 5px 4px 1.5px 4px;
+
+    transition: all .1s ease
+}
+
+.taskWrapper button.trash:hover {
+    color: var(--danger);
+
+    background: var(--gray-4);
+}
+
+.taskContent {
+    display: flex;
+
+    gap: 14px;
+}
+
+.taskContent p.unchecked, .taskContent p.checked {
+    font-size: 0.875rem;
+
+    max-width: 39.5rem;
+
+    line-height: 140%;
+}
+
+.taskContent p.checked {
+    color: var(--gray-3);
+}
+
+.taskContent p.unchecked {
+    color: var(--gray-1);
+}
+
+.taskContent a {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.checked {
+    color: var(--purple);
+    text-decoration: line-through;
+}
+
+.unchecked {
+    color: var(--blue);
+
+}

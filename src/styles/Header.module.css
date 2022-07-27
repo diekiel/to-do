@@ -1,0 +1,9 @@
+.header {
+    width: 100vw;
+
+    background: var(--gray-7);
+    padding: 4.5rem 0;
+
+    display: flex;
+    justify-content: center;
+}

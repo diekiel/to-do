@@ -1,0 +1,43 @@
+.taskWrapper {
+    width: 46rem;
+
+    margin: 0 auto;
+}
+
+/* IF NO TASKS */
+.taskEmpty {
+    margin-top: 1.5rem;
+
+    padding: 4rem 1.5rem;
+
+    border-top: 1px solid var(--gray-4);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taskEmpty svg {
+    color: #3d3d3d;
+}
+
+.emptyText {
+    color: var(--gray-3);
+    font-size: 1rem;
+
+    padding-top: 20px;
+    line-height: 140%;
+}
+
+.emptyText p {
+    font-weight: bold;
+}
+
+
+/* IF TASKS */
+
+.tasks {
+    margin-top: 1.5rem;
+}
